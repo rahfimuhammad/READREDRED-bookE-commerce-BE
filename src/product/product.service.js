@@ -85,7 +85,7 @@ const getProductByName = async (name, page, pageSize) => {
         where: {
             name: {
                 contains: name,
-                mode: "insensitive",
+                // mode: "insensitive",
             },
         },
         skip,

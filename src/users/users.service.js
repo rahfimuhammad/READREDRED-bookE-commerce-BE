@@ -62,10 +62,10 @@ const getAllUsers = async (page, pageSize, sortBy) => {
     let orderBy;
     switch (sortBy) {
       case "nameAsc":
-        orderBy = { name: 'asc' };
+        orderBy = { username: 'asc' };
         break;
       case "nameDesc":
-        orderBy = { name: 'desc' };
+        orderBy = { username: 'desc' };
         break;
       case "emailAsc":
         orderBy = { email: 'asc' };
